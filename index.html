@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soctech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng của SocTech. 
+
+                            <!-- Header QR code -->
+                            <div class="header__qr">
+                                <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/appstore.png" alt="Appstore" class="header__qr-download-img">
+                                    </a>
+
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/chplay.png" alt="CHplay" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>                            
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-link--has-notify">
+                            <a href="" class="header__navbar-item-link  ">
+                                <i class="header__navbar-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+
+                            <!-- notify link -->
+                            <div class="header__notify">
+                                <header class="header__notyfi-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed  ">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.tgdd.vn/Products/Images/44/311178/asus-vivobook-go-15-e1504fa-r5-nj776w-thumb-600x600.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Laptop Asus Vivobook Go 15 E1504FA</span>
+                                                <span class="header__notify-description">Giá từ 9.320.000₫ (-35%) </span> 
+                                            </div>
+                                        </a>                      
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-600x600.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Điện thoại iPhone 16 Pro Max 256GB</span>
+                                                <span class="header__notify-description">Giá từ 33.990.000₫</span> 
+                                            </div>
+                                        </a>                      
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.tgdd.vn/Products/Images/7077/329704/apple-watch-series-10-42mm-day-vai-man-thumb-600x600.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Apple Watch Series 10 42mm viền nhôm dây vải</span>
+                                                <span class="header__notify-description">Giá từ 10.340.000₫</span> 
+                                            </div>
+                                        </a>                      
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.tgdd.vn/Products/Images/522/311062/samsung-galaxy-tab-s9-grey-thumbnew-600x600.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Máy tính bảng Samsung Galaxy Tab S9 5G 8GB/128GB</span>
+                                                <span class="header__notify-description">Giá từ 17.990.000₫</span> 
+                                            </div>
+                                        </a>                      
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng kí</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li> -->
+
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/user.jpeg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Phạm Ngọc Minh Tú</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- header-with-search -->
+
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img class="header__logo-img" src="./assets/img/tuden.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header__search">  
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm"> 
+                            
+                            <!-- search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Macbook Pro M2</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Tai nghe không dây</a>
+                                    </li>    
+                                </ul>
+
+                            </div> 
+
+                        </div>
+                        
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoai shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        
+                    </div>
+
+                    <!-- cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i> 
+                            <span class="header__cart-notice">4</span>
+                            <!-- no cart: header__cart-list--no-cart-->
+                            <div class="header__cart-list">
+                                <img src="https://cdn.tgdd.vn/mwgcart/v2/vue-pro/img/empty-cart.5634865e751522d9d43e623a1.png" alt="" class="header__cart-no-cart-img">
+                                <p class="header__cart-list-text">Chưa có sản phẩm</p>
+                              
+                                <!-- has cart: co san pham -->
+                                <h3 class="header__cart-heading">Sản phẩm đã thêm vào giỏ hàng</h3>
+                                <ul class="header__cart-list-item">
+                                    <!-- cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://shopdunk.com/images/thumbs/0030771_iphone-16-128gb_240.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Iphone 16</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">22.190.000₫</span>
+                                                    <span class="header__cart-item-x">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Dung lượng: 128GB</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://shopdunk.com/images/thumbs/0029155_iphone-16-pro-max-256gb_240.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Iphone 16 Pro Max</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">34.390.000₫</span>
+                                                    <span class="header__cart-item-x">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Dung lượng: 256GB</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://shopdunk.com/images/thumbs/0024252_imac-m3-2023-24-inch-10-core-gpu8gb256gb_240.jpeg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">iMac M3 2023 24inch</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">40.390.000₫</span>
+                                                    <span class="header__cart-item-x">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Dung lượng: 10 Core GPU/8GB/256GB</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="https://shopdunk.com/images/thumbs/0031839_ipad-mini-7-wi-fi-cellular-256gb_240.jpeg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">iPad Mini 7 Wi-Fi + Cellular</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">20.490.000₫</span>
+                                                    <span class="header__cart-item-x">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">Dung lượng: 256GB</span>
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>         
+                            
+
+                        </div>
+                   </div>
+                </div>
+
+            </div>
+
+        </header>
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="fa-solid fa-list category__heading-icon"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">sản phẩm</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Iphone</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Ipad</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Airpods</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Apple Wtach</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Macbook</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Phụ kiện Apple</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp sếp theo</span>
+                            <button class="home-filter__btn btn btn--primary">Phổ biến</button>
+                            <button class="home-filter__btn btn">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="fas fa-angle-down"></i>
+                                <!-- select option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Từ cao đến thấp</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Từ thấp đến cao</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- sang trang -->
+                            <div class="home-filter__page">
+                                <div class="home-filter__page-number">
+                                    <span class="home-filter__page-number-current">1</span>/2
+                                </div>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="home-product">
+                            <!-- layout: gird -> grow -> column -->
+                            <!-- product item -->
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0029155_iphone-16-pro-max-256gb_240.png);"></div>
+                                        <h4 class="home-product-item__name">Điện thoại Apple iPhone 16 Pro Max 256GB</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">34.990.000đ</span>
+                                            <span class="home-product-item__price-new">24.090.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">342 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">30%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0009725_ipad-gen-10-th-109-inch-wifi-64gb_240.png);"></div>
+                                        <h4 class="home-product-item__name">iPad Gen 10 th 10.9 inch WiFi 64GB </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">12.990.000đ</span>
+                                            <span class="home-product-item__price-new">8.790.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">932 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">32%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0024430_iphone-13-128gb_240.png);"></div>
+                                        <h4 class="home-product-item__name">Điện thoại Apple iPhone 13 128GB</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">17.290.000</span>
+                                            <span class="home-product-item__price-new">13.390.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1K Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">22%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0030444_iphone-16-pro-128gb_240.png);"></div>
+                                        <h4 class="home-product-item__name">Điện thoại Apple iPhone 16 Pro 128GB</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">28.990.000đ</span>
+                                            <span class="home-product-item__price-new">28.690.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">172 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">1%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0022173_apple-watch-ultra-2-gps-cellular-49mm-ocean-band_240.png);"></div>
+                                        <h4 class="home-product-item__name">Apple Watch Ultra 2 GPS + Cellular 49mm Ocean Band</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">23.990.000đ</span>
+                                            <span class="home-product-item__price-new">20.890.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">457 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">12%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0022166_apple-watch-series-9-nhom-gps-41mm-sport-band_240.png);"></div>
+                                        <h4 class="home-product-item__name">Apple Watch Series 9 Nhôm (GPS) 41mm | Sport Band</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">11.990.000đ</span>
+                                            <span class="home-product-item__price-new">9.390.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1,2K Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">21%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0028617_tai-nghe-bluetooth-chup-tai-sony-wh1000xm4_240.jpeg);"></div>
+                                        <h4 class="home-product-item__name">Tai nghe Bluetooth chụp tai Sony WH1000XM4</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">6.690.000đ</span>
+                                            <span class="home-product-item__price-new">5.490.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">777 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Sony</span>
+                                            <span class="home-product-item__origin-name">JAPAN</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">17%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0029778_airpods-4_240.jpeg);"></div>
+                                        <h4 class="home-product-item__name">AirPods 4</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.499.000đ</span>
+                                            <span class="home-product-item__price-new">3.360.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">333 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">3%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.png);"></div>
+                                        <h4 class="home-product-item__name">MacBook Air M1 2020 (8GB RAM | 256GB SSD)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">28.990.000đ</span>
+                                            <span class="home-product-item__price-new">17.990.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1,7K Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">37%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0000728_studio-display_240.png);"></div>
+                                        <h4 class="home-product-item__name">Studio Display</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">44.990.000đ</span>
+                                            <span class="home-product-item__price-new">38.990.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">123 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">10%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0032037_macbook-pro-16-inch-m4-max-2024-48gb-ram-40-core-gpu-1tb-ssd_240.jpeg);"></div>
+                                        <h4 class="home-product-item__name">MacBook Pro 16 inch M4 Max 2024 (48GB RAM| 40 core GPU| 1TB SSD)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">102.490.000đ</span>
+                                            <span class="home-product-item__price-new">10.249.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">15K Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">90%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0026208_ipad-pro-m4-11-inch-wi-fi-cellular-1tb_240.jpeg);"></div>
+                                        <h4 class="home-product-item__name">iPad Pro M4 11 inch Wi-Fi + Cellular 2TB</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">62.990.000đ</span>
+                                            <span class="home-product-item__price-new">6.299.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">11K Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">90%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0030772_iphone-16-plus-128gb_240.png);"></div>
+                                        <h4 class="home-product-item__name">iPhone 16 Plus 128GB</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">25.990.000đ</span>
+                                            <span class="home-product-item__price-new">25.390.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">1.9K Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Apple</span>
+                                            <span class="home-product-item__origin-name">USA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">2%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0028705_loa-sony-ult-tower-10-ult1000_240.jpeg);"></div>
+                                        <h4 class="home-product-item__name">ĐLoa Sony ULT TOWER 10 (ULT1000)</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">25.990.000đ</span>
+                                            <span class="home-product-item__price-new">23.400.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">313 Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">LG</span>
+                                            <span class="home-product-item__origin-name">KOREA</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">10%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a class="home-product-item" href="">
+                                        <div class="home-product-item__img" style="background-image: url(https://shopdunk.com/images/thumbs/0028207_may-choi-game-sony-playstation-5-hai-tay-cam-chinh-hang-sony-viet-nam_240.jpeg);"></div>
+                                        <h4 class="home-product-item__name">Máy chơi game Sony PlayStation 5 (hai tay cầm) | Chính hãng Sony Việt Nam</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">14.990.000đ</span>
+                                            <span class="home-product-item__price-new">1.499.000đ</span>
+                                        </div>
+
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fa-solid fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">23K Đã bán</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Sony</span>
+                                            <span class="home-product-item__origin-name">JAPAN</span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                            <span class="home-product-item__sale-off-persent">90%</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination__item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link ">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">10</a>
+                            </li>
+                            <li class="pagination-item__link">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Soctech Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Giới thiệu về Soctech</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Giới thiệu về Soctech Vietnam</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điều khoản Soctech</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Thanh toán</h3>
+                        <ul class="footer__pay">
+                            <li class="footer__pay-item">
+                                <a href="" class="footer__pay-link ">
+                                    <img src="https://down-vn.img.susercontent.com/file/d4bbea4570b93bfd5fc652ca82a262a8" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__pay-item">
+                                <a href="" class="footer__pay-link">
+                                    <img src="https://down-vn.img.susercontent.com/file/a0a9062ebe19b45c1ae0506f16af5c16" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__pay-item">
+                                <a href="" class="footer__pay-link">
+                                    <img src="https://down-vn.img.susercontent.com/file/38fd98e55806c3b2e4535c4e4a6c4c08" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__pay-item">
+                                <a href="" class="footer__pay-link">
+                                    <img src="https://down-vn.img.susercontent.com/file/bc2a874caeee705449c164be385b796c" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__pay-item">
+                                <a href="" class="footer__pay-link">
+                                    <img src="https://down-vn.img.susercontent.com/file/5e3f0bee86058637ff23cfdf2e14ca09" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="fa-brands fa-youtube"></i>
+                                    Youtube
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng Soctech</h3>
+                        <div class="ft__app">
+                            <div class="ft__qr">
+                                <img src="./assets/img/qr_code.png" alt="Dowload QR">
+                            </div>
+                            <div class="ft__app-item">
+                                    <a href="" class="ft__app-item-link">
+                                        <img src="./assets/img/appstore.png" alt="Dowload Applestore">
+                                    </a>
+                                    <a href="" class="ft__app-item-link">
+                                        <img src="./assets/img/chplay.png" alt="Dowload CHPlay">     
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- policy -->
+                <div class="grid__row">
+                    <div class="footer__policy">
+                        <ul class="footer__policy-heading">
+                            <li class="footer__policy-item">
+                                <a href="" class="footer__policy-item-link footer__policy-item--separate">CHÍNH SÁCH BẢO MẬT</a>
+                            </li>
+                            <li class="footer__policy-item">
+                                <a href="" class="footer__policy-item-link footer__policy-item--separate">QUY CHẾ HOẠT ĐỘNG</a>
+                            </li>
+                            <li class="footer__policy-item">
+                                <a href="" class="footer__policy-item-link footer__policy-item--separate">CHÍNH SÁCH VẬN CHUYỂN</a>
+                            </li>
+                            <li class="footer__policy-item">
+                                <a href="" class="footer__policy-item-link">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__policy-img">
+                            <li class="policy-img__item">
+                                <a href="" class="footer-img__item-link">
+                                    <img src="http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoCCDV.png" alt="">
+                                </a>
+                            </li>
+                            <span>Công ty TNHH Soctech</span>
+                        </ul>
+                        <div class="footer_description">
+                            <ul class="description-content">
+                                <li class="description-content__item">
+                                    <span>
+                                        Địa chỉ: Tổ 9, ấp An Bình, xã Bình An, huyện Long Thành, Tỉnh Đồng Nai, Việt Nam. Tổng đài hỗ trợ: 0798282789 - Email: phamngocminhtu.s99@gmail.com.                                   
+                                    </span>
+                                </li>
+                                <li class="description-content__item">
+                                    <span>Chịu trách nhiệm quản lý nội dung: Phạm Ngọc Minh Tú.</span>
+                                </li>
+                                <li class="description-content__item">
+                                    <span>Mã số doanh nghiệp: 12345678 do Sở Kế hoạch & Đầu tư TP Hồ Chí Minh cấp lần đầu ngày 26/11/2024.</span>
+                                </li>
+                                <li class="description-content__item">
+                                    <span>© 2024 - Bản quyền thuộc về Công ty TNHH Soctech.</span>
+                                </li>
+                            </ul>                       
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- <div class="modal"> -->
+
+        <!-- <div class="modal__overlay"> -->
+
+        <!-- </div> -->
+        <!-- <div class="modal__body"> -->
+            
+
+                <!-- register form -->
+                 <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">ĐĂNG KÍ</h3>
+                            <span class="auth-form__switch-btn">ĐĂNG NHẬP</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+    
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+                                
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                                
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với Tuden shop về
+                                <a href="" class="auth-form__text-link">điều khoản và dịch vụ</a>
+                                &
+                                <a href="" class="auth-form__text-link">chính sách bảo mật</a>
+    
+                            </p>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn btn-nomal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÍ</button>
+    
+                        </div>
+                        
+                    </div>
+
+                    <div class="auth-form__sosials">
+                        <a href="" class="auth-form__sosials--fb btn btn--size-s btn--switch-icon">
+                            <i class="auth-form__sosials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__sosials-title">
+                                kết nối với Facebook  
+                            </span>
+                        </a>
+
+                        <a href="" class="auth-form__sosials--gg btn btn--size-s btn--switch-icon">
+                            <div class="auth-form__sosials-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="0.98em" height="1em" viewBox="0 0 256 262"><path fill="#4285f4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"/><path fill="#34a853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"/><path fill="#fbbc05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602z"/><path fill="#eb4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0C79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"/></svg>
+                            </div>
+                            <span class="auth-form__sosials-title">
+                                kết nối với Google    
+                            </span>
+                        </a>
+                    </div>
+
+                </div> -->
+
+                <!-- login form -->
+                   <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">ĐĂNG NHẬP</h3>
+                            <span class="auth-form__switch-btn">ĐĂNG KÍ</span>
+                        </div>
+    
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+    
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+                                
+                            </div>
+                        </div>
+    
+                        <div class="auth-form__aside">
+                          <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot ">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                          </div>
+                        </div>
+    
+                        <div class="auth-form__controls">
+                            <button class="btn btn-nomal auth-form__controls-back">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG NHẬP</button>
+    
+                        </div>
+                        
+                    </div>
+
+                    <div class="auth-form__sosials">
+                        <a href="" class="auth-form__sosials--fb btn btn--size-s btn--switch-icon">
+                            <i class="auth-form__sosials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__sosials-title">
+                                kết nối với Facebook  
+                            </span>
+                        </a>
+
+                        <a href="" class="auth-form__sosials--gg btn btn--size-s btn--switch-icon">
+                            <div class="auth-form__sosials-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="0.98em" height="1em" viewBox="0 0 256 262"><path fill="#4285f4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"/><path fill="#34a853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"/><path fill="#fbbc05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602z"/><path fill="#eb4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0C79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"/></svg>
+                            </div>
+                            <span class="auth-form__sosials-title">
+                                kết nối với Google    
+                            </span>
+                        </a>
+                    </div>
+
+                </div> -->
+
+            
+
+        <!-- </div> -->
+    <!-- </div> -->
+    
+</body>
+</html>
